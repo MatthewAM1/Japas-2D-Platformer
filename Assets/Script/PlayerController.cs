@@ -7,9 +7,11 @@ public class PlayerController : MonoBehaviour
     private float horizontalAxis;
     private Vector2 playerDirection;
 
-    [SerializeField] private float playerSpeed = 3;
-    [SerializeField] private float playerJumpForce = 5;
+    [SerializeField] private float playerSpeed = 3.0f;
+    [SerializeField] private float playerJumpForce = 5.0f;
+    [SerializeField] private Transform bulletSpawnPoint;
     [SerializeField] private bool isOnGround = false;
+    [SerializeField] private GameObject bulletPrefab;
 
     Rigidbody2D playerRB;
 
@@ -20,13 +22,13 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Movement();
+        PlayerMovement();
         Jump();
+        ShootBullet();
     }
 
-    void Movement()
+    void PlayerMovement()
     {
-        // Player movement
         horizontalAxis = Input.GetAxis("Horizontal");
         playerDirection = new Vector2(horizontalAxis, 0);
 
@@ -35,12 +37,19 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        // Player jump
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
             playerRB.AddForce(Vector2.up * playerJumpForce, ForceMode2D.Impulse);
 
             isOnGround = false;
+        }
+    }
+
+    void ShootBullet()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletPrefab.transform.rotation);
         }
     }
 
