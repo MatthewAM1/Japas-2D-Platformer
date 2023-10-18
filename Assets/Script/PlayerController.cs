@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float playerSpeed = 3.0f;
     [SerializeField] private float playerJumpForce = 5.0f;
     [SerializeField] private Transform bulletSpawnPoint;
-    [SerializeField] private bool isOnGround = false;
     [SerializeField] private GameObject bulletPrefab;
+    private bool isOnGround = false;
+    private bool facingRight = true;
+    
 
     Rigidbody2D playerRB;
 
@@ -33,6 +35,25 @@ public class PlayerController : MonoBehaviour
         playerDirection = new Vector2(horizontalAxis, 0);
 
         transform.Translate(playerDirection * Time.deltaTime * playerSpeed);
+
+        if (horizontalAxis > 0 && !facingRight)
+        {
+            FlipPlayer();
+        }
+
+        if (horizontalAxis < 0 && facingRight)
+        {
+            FlipPlayer();
+        }
+    }
+
+    void FlipPlayer()
+    {
+        Vector2 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingRight = !facingRight;
     }
 
     void Jump()
