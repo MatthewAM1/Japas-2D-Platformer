@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -13,13 +14,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     private bool isOnGround = false;
     private bool facingRight = true;
-    
 
+    Animator anim;
     Rigidbody2D playerRB;
 
     void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -35,6 +37,11 @@ public class PlayerController : MonoBehaviour
         playerDirection = new Vector2(horizontalAxis, 0);
 
         transform.Translate(playerDirection * Time.deltaTime * playerSpeed);
+        
+        if (Mathf.Abs(playerDirection.x) > 0 && playerRB.velocity.y == 0) 
+            anim.SetBool("isWalking", true);
+        else
+            anim.SetBool("isWalking", false);
 
         if (horizontalAxis > 0 && !facingRight)
         {
@@ -63,6 +70,23 @@ public class PlayerController : MonoBehaviour
             playerRB.AddForce(Vector2.up * playerJumpForce, ForceMode2D.Impulse);
 
             isOnGround = false;
+        }
+
+        if (playerRB.velocity.y == 0)
+        {
+            anim.SetBool("isJumping", false);
+            anim.SetBool("isFalling", false);
+        }
+
+        if (playerRB.velocity.y > 0) 
+        {
+            anim.SetBool("isJumping", true);
+        }
+
+        if (playerRB.velocity.y < 0) 
+        {
+            anim.SetBool("isJumping", false);
+            anim.SetBool("isFalling", true);
         }
     }
 

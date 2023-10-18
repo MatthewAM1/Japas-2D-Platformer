@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private GameObject playerController;
-
     [SerializeField] private float bulletSpeed = 10.0f;
     [SerializeField] private float bulletTime = 2.0f;
-
-    private void Awake()
-    {
-        playerController = GameObject.Find("Player");
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +30,19 @@ public class Bullet : MonoBehaviour
         bulletTime -= 1 * Time.deltaTime;
 
         if (bulletTime < 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+            Destroy(collider.gameObject);
+        }
+        else
         {
             Destroy(gameObject);
         }
