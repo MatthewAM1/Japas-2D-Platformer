@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float playerSpeed = 3.0f;
     [SerializeField] private float playerJumpForce = 5.0f;
     [SerializeField] private Transform bulletSpawnPoint;
-    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private GameObject bulletRight;
+    [SerializeField] private GameObject bulletLeft;
     private bool isOnGround = false;
     private bool facingRight = true;
 
@@ -92,9 +93,14 @@ public class PlayerController : MonoBehaviour
 
     void ShootBullet()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && facingRight)
         {
-            Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletPrefab.transform.rotation);
+            Instantiate(bulletRight, bulletSpawnPoint.position, bulletRight.transform.rotation);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q) && !facingRight)
+        {
+            Instantiate(bulletLeft, bulletSpawnPoint.position, bulletLeft.transform.rotation);
         }
     }
 

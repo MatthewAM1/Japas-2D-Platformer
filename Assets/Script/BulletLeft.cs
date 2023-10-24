@@ -2,27 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletLeft : MonoBehaviour
 {
     [SerializeField] private float bulletSpeed = 10.0f;
     [SerializeField] private float bulletTime = 2.0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        ShootBulletForward();
+        ShootBulletLeft();
         DestroyBulletTimer();
     }
 
-    void ShootBulletForward()
+    void ShootBulletLeft()
     {
-        transform.Translate(Vector2.right * Time.deltaTime * bulletSpeed);
+        transform.Translate(Vector2.left * Time.deltaTime * bulletSpeed);
     }
 
     void DestroyBulletTimer()
