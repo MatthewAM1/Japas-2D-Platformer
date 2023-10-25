@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject bulletLeft;
     private bool isOnGround = false;
     private bool facingRight = true;
+    private bool isPoweredUp = false;
 
     Animator anim;
     Rigidbody2D playerRB;
@@ -29,7 +30,10 @@ public class PlayerController : MonoBehaviour
     {
         PlayerMovement();
         Jump();
-        ShootBullet();
+        if (isPoweredUp)
+        {
+            ShootBullet();
+        }
     }
 
     void PlayerMovement()
@@ -95,12 +99,18 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q) && facingRight)
         {
-            Instantiate(bulletRight, bulletSpawnPoint.position, bulletRight.transform.rotation);
+            if (isPoweredUp)
+            {
+                Instantiate(bulletRight, bulletSpawnPoint.position, bulletRight.transform.rotation);
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Q) && !facingRight)
         {
-            Instantiate(bulletLeft, bulletSpawnPoint.position, bulletLeft.transform.rotation);
+            if (isPoweredUp)
+            {
+                Instantiate(bulletLeft, bulletSpawnPoint.position, bulletLeft.transform.rotation);
+            }
         }
     }
 
@@ -110,6 +120,17 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
+        }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "PowerUp")
+        {
+            Destroy(collision.gameObject);
+            playerJumpForce = 10.0f;
+            isPoweredUp = true;
         }
     }
 }
