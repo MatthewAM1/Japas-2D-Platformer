@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - PowerUp
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
