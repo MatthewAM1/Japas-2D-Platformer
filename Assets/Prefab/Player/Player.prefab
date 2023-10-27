@@ -197,8 +197,10 @@ MonoBehaviour:
   playerSpeed: 4
   playerJumpForce: 8
   bulletSpawnPoint: {fileID: 4821573979271180006}
-  bulletRight: {fileID: 2865375824476742821, guid: 23c53de2e9e628c419332be07ba3ca3c, type: 3}
-  bulletLeft: {fileID: 6716360092320451301, guid: 684122e84ae7c554186f192776c8a342, type: 3}
+  bulletRight: {fileID: 7406828011719506735, guid: 70aa594d01ab35c40bd49de707d46737, type: 3}
+  bulletLeft: {fileID: 6709103620008410923, guid: 55ec9ca2cf39f374aa098c6a91ba15f4, type: 3}
+  isPoweredUp: 0
+  playerRB: {fileID: 0}
 --- !u!95 &5284661337329774458
 Animator:
   serializedVersion: 5
