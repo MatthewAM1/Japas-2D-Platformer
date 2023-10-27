@@ -15,10 +15,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject bulletLeft;
     private bool isOnGround = false;
     private bool facingRight = true;
-    private bool isPoweredUp = false;
+    [SerializeField] private bool isPoweredUp = false;
 
     Animator anim;
-    Rigidbody2D playerRB;
+    public Rigidbody2D playerRB;
 
     void Start()
     {
@@ -129,7 +129,6 @@ public class PlayerController : MonoBehaviour
         if (collision.tag == "PowerUp")
         {
             Destroy(collision.gameObject);
-            playerJumpForce = 10.0f;
             isPoweredUp = true;
         }
     }

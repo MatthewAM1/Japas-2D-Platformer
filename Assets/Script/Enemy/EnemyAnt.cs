@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyPatrol : MonoBehaviour
+public class EnemyAnt : MonoBehaviour
 {
     public GameObject pointLeft;
     public GameObject pointRight;
+    public GameObject enemyHead;
     private Rigidbody2D enemyRigidbody;
     private Transform currentPoint;
     [SerializeField] private float speed;
+    [SerializeField] private float patrolRadius;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,11 @@ public class EnemyPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        EnemyPatrol();
+    }
+
+    void EnemyPatrol()
+    {
         Vector2 point = currentPoint.position - transform.position;
         if (currentPoint == pointRight.transform)
         {
@@ -30,13 +37,13 @@ public class EnemyPatrol : MonoBehaviour
             enemyRigidbody.velocity = new Vector2(-speed, 0);
         }
 
-        if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointRight.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) < patrolRadius && currentPoint == pointRight.transform)
         {
             FlipEnemy();
             currentPoint = pointLeft.transform;
         }
 
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointLeft.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) < patrolRadius && currentPoint == pointLeft.transform)
         {
             FlipEnemy();
             currentPoint = pointRight.transform;
