@@ -10,6 +10,7 @@ public class EnemyAnt : MonoBehaviour
     private Rigidbody2D enemyRigidbody;
     private Transform currentPoint;
     [SerializeField] private float speed;
+    [SerializeField] private float damage;
     [SerializeField] private float patrolRadius;
 
     // Start is called before the first frame update
@@ -62,5 +63,13 @@ public class EnemyAnt : MonoBehaviour
         Gizmos.DrawWireSphere(pointLeft.transform.position, 0.5f);
         Gizmos.DrawWireSphere(pointRight.transform.position, 0.5f);
         Gizmos.DrawLine(pointLeft.transform.position, pointRight.transform.position);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            collision.GetComponent<Health>().TakeDamage(damage);
+        }
     }
 }
