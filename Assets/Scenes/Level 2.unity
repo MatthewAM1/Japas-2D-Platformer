@@ -2549,7 +2549,7 @@ GameObject:
   - component: {fileID: 394155167}
   - component: {fileID: 394155166}
   - component: {fileID: 394155168}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6451,7 +6451,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -9957,6 +9957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 5
+  iFramesDuration: 2
+  numberOfFlashes: 3
 --- !u!1 &1668430670
 GameObject:
   m_ObjectHideFlags: 0
@@ -10796,9 +10798,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 317610819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409, y: 201}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 136, y: -53}
   m_SizeDelta: {x: 1132, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1766415607
@@ -11540,9 +11542,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 317610819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409, y: 201}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 136, y: -53}
   m_SizeDelta: {x: 1132, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1926263191
@@ -13258,6 +13260,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1571942542807034745, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571942542807034745, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -13309,6 +13315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7492675894034992652, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8365500496779160420, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -13325,6 +13335,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 1577277157
       objectReference: {fileID: 0}
+    - target: {fileID: 8945364700630613854, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
+      propertyPath: bulletLeft
+      value: 
+      objectReference: {fileID: 6709103620008410923, guid: 55ec9ca2cf39f374aa098c6a91ba15f4, type: 3}
+    - target: {fileID: 8945364700630613854, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
+      propertyPath: bulletRight
+      value: 
+      objectReference: {fileID: 7406828011719506735, guid: 70aa594d01ab35c40bd49de707d46737, type: 3}
     - target: {fileID: 8945364700630613854, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
       propertyPath: isPoweredUp
       value: 1
