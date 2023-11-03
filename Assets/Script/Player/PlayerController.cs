@@ -101,6 +101,7 @@ public class PlayerController : MonoBehaviour
         {
             if (isPoweredUp)
             {
+                anim.SetTrigger("attack");
                 Instantiate(bulletRight, bulletSpawnPoint.position, bulletRight.transform.rotation);
             }
         }
@@ -109,6 +110,7 @@ public class PlayerController : MonoBehaviour
         {
             if (isPoweredUp)
             {
+                anim.SetTrigger("attack");
                 Instantiate(bulletLeft, bulletSpawnPoint.position, bulletLeft.transform.rotation);
             }
         }
