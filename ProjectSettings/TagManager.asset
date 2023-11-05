@@ -8,7 +8,7 @@ TagManager:
   - Enemy
   - PowerUp
   - CheckPoint
-  - Enemy Head
+  - EnemyHead
   layers:
   - Default
   - TransparentFX
