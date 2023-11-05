@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class EnemyHead : MonoBehaviour
 {
-    public GameObject enemy;
-    PlayerController playerController;
-    [SerializeField] private GameObject player;
-    [SerializeField] private float bounceForce;
+    [SerializeField] private GameObject enemy;
 
 
     private void Awake()
     {
-        playerController = player.GetComponent<PlayerController>();
+        
     }
 
     // Start is called before the first frame update
@@ -32,7 +29,7 @@ public class EnemyHead : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(enemy.gameObject);
-            playerController.playerRB.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
-        }        
+        }
     }
 }
+

@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAnt : MonoBehaviour
+public class AntPatrol : MonoBehaviour
 {
     public GameObject pointLeft;
     public GameObject pointRight;
-    public GameObject enemyHead;
     private Rigidbody2D enemyRigidbody;
     private Transform currentPoint;
     [SerializeField] private float speed;
@@ -63,13 +62,5 @@ public class EnemyAnt : MonoBehaviour
         Gizmos.DrawWireSphere(pointLeft.transform.position, 0.5f);
         Gizmos.DrawWireSphere(pointRight.transform.position, 0.5f);
         Gizmos.DrawLine(pointLeft.transform.position, pointRight.transform.position);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            collision.GetComponent<Health>().TakeDamage(damage);
-        }
     }
 }

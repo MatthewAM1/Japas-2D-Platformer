@@ -16,9 +16,10 @@ public class PlayerController : MonoBehaviour
     private bool isOnGround = false;
     private bool facingRight = true;
     [SerializeField] private bool isPoweredUp = false;
+    [SerializeField] private float bounceForce;
 
     Animator anim;
-    public Rigidbody2D playerRB;
+    private Rigidbody2D playerRB;
 
     void Start()
     {
@@ -33,6 +34,29 @@ public class PlayerController : MonoBehaviour
         if (isPoweredUp)
         {
             ShootBullet();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Check if player is on ground
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isOnGround = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "PowerUp")
+        {
+            Destroy(collision.gameObject);
+            isPoweredUp = true;
+        }
+        if (collision.gameObject.CompareTag("EnemyHead"))
+        {
+            Debug.Log("Bounce");
+            playerRB.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
         }
     }
 
@@ -114,24 +138,5 @@ public class PlayerController : MonoBehaviour
                 Instantiate(bulletLeft, bulletSpawnPoint.position, bulletLeft.transform.rotation);
             }
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        // Check if player is on ground
-        if(collision.gameObject.CompareTag("Ground"))
-        {
-            isOnGround = true;
-        }
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "PowerUp")
-        {
-            Destroy(collision.gameObject);
-            isPoweredUp = true;
-        }
-    }
+    }    
 }
