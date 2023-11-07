@@ -34,7 +34,7 @@ public class BulletRight : MonoBehaviour
         if (collider.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
-            Destroy(collider.gameObject);
+            collider.GetComponent<Health>().TakeDamage(1);
         }
         else
         {
