@@ -9,6 +9,7 @@ TagManager:
   - PowerUp
   - CheckPoint
   - EnemyHead
+  - KeyGuardHead
   layers:
   - Default
   - TransparentFX
