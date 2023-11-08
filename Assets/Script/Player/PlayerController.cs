@@ -8,15 +8,24 @@ public class PlayerController : MonoBehaviour
     private float horizontalAxis;
     private Vector2 playerDirection;
 
+    // Player movement variable
     [SerializeField] private float playerSpeed = 3.0f;
     [SerializeField] private float playerJumpForce = 5.0f;
+    private bool isOnGround = false;
+    private bool facingRight = true;
+
+    // Bullet variable
     [SerializeField] private Transform bulletSpawnPoint;
     [SerializeField] private GameObject bulletRight;
     [SerializeField] private GameObject bulletLeft;
-    private bool isOnGround = false;
-    private bool facingRight = true;
+    
+    // Extra power variable
     [SerializeField] private bool isPoweredUp = false;
     [SerializeField] private float bounceForce;
+
+    // Key variable
+    public bool haveKey = false;
+    [SerializeField] private GameObject sewerKey;
 
     Animator anim;
     private Rigidbody2D playerRB;
@@ -55,8 +64,13 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("EnemyHead"))
         {
-            Debug.Log("Bounce");
             playerRB.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
+        }
+        if (collision.gameObject.CompareTag("KeyGuardHead"))
+        {
+            playerRB.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
+            haveKey = true;
+            sewerKey.SetActive(true);
         }
     }
 
@@ -138,5 +152,5 @@ public class PlayerController : MonoBehaviour
                 Instantiate(bulletLeft, bulletSpawnPoint.position, bulletLeft.transform.rotation);
             }
         }
-    }    
+    }
 }
