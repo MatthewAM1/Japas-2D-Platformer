@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     // Extra power variable
     [SerializeField] private bool isPoweredUp = false;
     [SerializeField] private float bounceForce;
+    [SerializeField] private float trampolineForce;
 
     // Key variable
     public bool haveKey = false;
@@ -52,6 +53,10 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
+        }
+        if (collision.gameObject.CompareTag("Trampoline"))
+        {
+            playerRB.AddForce(Vector2.up * trampolineForce, ForceMode2D.Impulse);
         }
     }
 
