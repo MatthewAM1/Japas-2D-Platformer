@@ -53,6 +53,12 @@ public class Health : MonoBehaviour
                     Destroy(antEnemy.gameObject);
 
                 }
+                if (GetComponent<FlyEnemy>() != null)
+                {
+                   FlyEnemy flyEnemy = GetComponent<FlyEnemy>();
+                    Destroy(flyEnemy.gameObject);
+
+                }
 
                 dead = true;
             }

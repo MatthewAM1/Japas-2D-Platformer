@@ -163,3 +163,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 10
   bulletTime: 2
+  playerController: {fileID: 8945364700630613854, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}

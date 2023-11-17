@@ -6,6 +6,8 @@ public class BulletRight : MonoBehaviour
 {
     [SerializeField] private float bulletSpeed = 10.0f;
     [SerializeField] private float bulletTime = 2.0f;
+    [SerializeField] private PlayerController playerController;
+
 
     // Update is called once per frame
     void Update()
@@ -33,12 +35,22 @@ public class BulletRight : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Enemy"))
         {
-            Destroy(gameObject);
             collider.GetComponent<Health>().TakeDamage(1);
+        }
+
+        if (collider.gameObject.CompareTag("EnemyGuard"))
+        {
+            collider.GetComponentInParent<Health>().TakeDamage(1);
+            playerController.haveKey = true;
+            playerController.sewerKey.SetActive(true);
+
         }
         else
         {
             Destroy(gameObject);
         }
+
+        
+
     }
 }
