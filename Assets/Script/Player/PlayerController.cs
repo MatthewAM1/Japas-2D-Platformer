@@ -16,17 +16,16 @@ public class PlayerController : MonoBehaviour
 
     // Bullet variable
     [SerializeField] private Transform bulletSpawnPoint;
-    [SerializeField] private GameObject bulletRight;
-    [SerializeField] private GameObject bulletLeft;
+    [SerializeField] public GameObject bulletRight;
+    [SerializeField] public GameObject bulletLeft;
     
     // Extra power variable
     [SerializeField] private bool isPoweredUp = false;
-    [SerializeField] private float bounceForce;
-    [SerializeField] private float trampolineForce;
+    [SerializeField] public float trampolineForce;
 
     // Key variable
     public bool haveKey = false;
-    [SerializeField] private GameObject sewerKey;
+    [SerializeField] public GameObject sewerKey;
 
     Animator anim;
     private Rigidbody2D playerRB;
@@ -67,16 +66,7 @@ public class PlayerController : MonoBehaviour
             Destroy(collision.gameObject);
             isPoweredUp = true;
         }
-        if (collision.gameObject.CompareTag("EnemyHead"))
-        {
-            playerRB.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
-        }
-        if (collision.gameObject.CompareTag("KeyGuardHead"))
-        {
-            playerRB.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
-            haveKey = true;
-            sewerKey.SetActive(true);
-        }
+        
     }
 
     void PlayerMovement()
