@@ -29,7 +29,7 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (playerDetected && Input.GetKeyDown(KeyCode.Z)) 
+        if (playerDetected && Input.GetKeyDown(KeyCode.E)) 
         {
             dialogueScript.StartDialogue();
         }
