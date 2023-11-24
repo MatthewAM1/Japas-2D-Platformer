@@ -8,6 +8,7 @@ public class EnemyPatrol : MonoBehaviour
     [Header ("Patrol Point")]
     [SerializeField] private Transform leftPoint;
     [SerializeField] private Transform rightPoint;
+
     [Header ("Enemy")]
     [SerializeField] private Transform enemy;
     [SerializeField] private float speed;
@@ -45,6 +46,7 @@ public class EnemyPatrol : MonoBehaviour
                 else
                     DirectionChange();
             }
+            
         }
            
     }
