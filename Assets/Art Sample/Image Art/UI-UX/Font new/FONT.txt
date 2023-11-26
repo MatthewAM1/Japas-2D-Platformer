@@ -1,0 +1,46 @@
+Font : Super Sedan (Regular)
+1. JAPAS : SNACK ADVENTURE (di loading page & main menu)
+2. LEVEL (judul)
+3. 1, 2, 3 (di level page)
+4. CREATED BY (judul)
+5. GAME DESIGNER
+6. GAME ARTIST
+7. GAME PROGRAMMER
+8. SETTINGS (judul)
+9. PAUSE (judul)
+10. GAME OVER
+11. QUIT (judul)
+12. CONTROL (judul)
+
+
+
+Font : Cocogoose (Regular)
+1. START (di halaman menu)
+2. SETTINGS (di halaman menu)
+3. CONTROL (di halaman menu)
+4. CREDITS (di halaman menu)
+5. QUIT (di halaman menu)
+6. ZULFAN ALIY
+7. WIDHIANA LUKY
+8. RESTU ACHMAD
+9. HIKARI AUFA
+10. MATTHEW ALDEN
+11. MUSIC
+12. SFX
+13. TRY AGAIN?
+14. ARE YOU SURE TO QUIT THE GAME?
+15. MOVEMENT
+
+Font : Montserrat (SemiBold)
+1. BACK
+2. YES
+3. NO
+4. LEFT & RIGHT
+5. INTERACT
+6. JUMP
+7. SHOOT
+8. S 
+9. D
+10. E
+11. Q
+12. SPACE
