@@ -1568,7 +1568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a1444d991e3c64fbc2f3775e9a7087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 1649282087}
+  playerHealth: {fileID: 8682716223851595059}
   totalhealthBar: {fileID: 1766415607}
   currenthealthBar: {fileID: 1926263191}
 --- !u!1 &390620191
@@ -28237,6 +28237,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1649282093}
   m_SourcePrefab: {fileID: 100100000, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
+--- !u!114 &8682716223851595059 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4522236664004738615, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
+  m_PrefabInstance: {fileID: 8682716223851595058}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649282086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03cdcda2d2b5ea40b788484192b40ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8925310536969699327
 PrefabInstance:
   m_ObjectHideFlags: 0
