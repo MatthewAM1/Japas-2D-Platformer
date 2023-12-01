@@ -3492,7 +3492,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996307733}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
   m_Name: 
@@ -3891,6 +3891,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1177120706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177120707}
+  m_Layer: 0
+  m_Name: StartPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1177120707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177120706}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: -0.84, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717704215}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1182912770
 GameObject:
   m_ObjectHideFlags: 0
@@ -27765,6 +27796,7 @@ GameObject:
   - component: {fileID: 2072747027}
   - component: {fileID: 2072747026}
   - component: {fileID: 2072747025}
+  - component: {fileID: 2072747029}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -27779,7 +27811,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072747024}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -27881,6 +27913,19 @@ Transform:
   - {fileID: 1337781232}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072747029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072747024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a196eca7ba53c48a1dad4345aba00c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 783214160}
 --- !u!1 &2114041837
 GameObject:
   m_ObjectHideFlags: 0
@@ -28296,13 +28341,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4827526981936725703, guid: 4ec0763558ff54e4ca796359f3ba13f5, type: 3}
+      propertyPath: startingPoint
+      value: 
+      objectReference: {fileID: 1177120707}
     - target: {fileID: 4934946364092588697, guid: 4ec0763558ff54e4ca796359f3ba13f5, type: 3}
       propertyPath: m_Name
       value: FlyPatrol
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4004668532516459441, guid: 4ec0763558ff54e4ca796359f3ba13f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1177120707}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ec0763558ff54e4ca796359f3ba13f5, type: 3}
 --- !u!1660057539 &9223372036854775807

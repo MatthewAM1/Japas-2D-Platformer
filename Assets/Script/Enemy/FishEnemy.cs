@@ -7,14 +7,14 @@ public class FishEnemy : MonoBehaviour
     private Rigidbody2D enemyRigidbody;
     private Transform currentPoint;
     [SerializeField] private float damage;
-    private EnemyPatrol enemyPatrol;
+    private FishPatrol fishPatrol;
     private Animator anim;
 
     // Start is called before the first frame update
     private void Awake()
     {
         anim = GetComponent<Animator>();
-        enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        fishPatrol = GetComponentInParent<FishPatrol>();
     }
 
 
