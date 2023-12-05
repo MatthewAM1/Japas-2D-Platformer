@@ -21,7 +21,7 @@ TagManager:
   - UI
   - Player
   - Enemy
-  - 
+  - Boat
   - 
   - 
   - 
@@ -57,4 +57,7 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 488585829
+    locked: 0
+  - name: Object
+    uniqueID: 4202849645
     locked: 0
