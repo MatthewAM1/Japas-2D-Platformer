@@ -309,12 +309,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7437908}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 1.97, z: 0}
-  m_LocalScale: {x: 6.0125, y: 0.45, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 33.62, y: 1.88, z: 0}
+  m_LocalScale: {x: 2.216311, y: 0.10207861, z: 0.22684136}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1835637879}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &7437910
 BoxCollider2D:
@@ -6691,7 +6691,7 @@ Transform:
   m_GameObject: {fileID: 996307733}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 391.7, y: -5.53, z: -10}
+  m_LocalPosition: {x: 28.1, y: -1.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11930,8 +11930,7 @@ Transform:
   m_LocalPosition: {x: 33.61, y: 1.9052, z: 0}
   m_LocalScale: {x: 0.22684136, y: 0.22684136, z: 0.22684136}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7437909}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1835637880
@@ -13789,7 +13788,7 @@ Transform:
   m_GameObject: {fileID: 2072747024}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 391.7, y: -5.53, z: -10}
+  m_LocalPosition: {x: 28.1, y: -1.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14656,11 +14655,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6980809080608699326, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 391.7
+      value: 28.1
       objectReference: {fileID: 0}
     - target: {fileID: 6980809080608699326, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.13
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: 6980809080608699326, guid: 3ad316cb95841d24da028dea264b6fad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14778,8 +14777,9 @@ SceneRoots:
   - {fileID: 979925353}
   - {fileID: 41007179}
   - {fileID: 469936850}
-  - {fileID: 1835637879}
+  - {fileID: 7437909}
   - {fileID: 474825485}
   - {fileID: 1159703760}
+  - {fileID: 1835637879}
   - {fileID: 1893213981}
   - {fileID: 2137214771}
