@@ -6,6 +6,10 @@ public class Health : MonoBehaviour
 {
     [Header ("Health")]
     [SerializeField] private float startingHealth;
+    [SerializeField] private AudioClip takeDamageSound;
+    [SerializeField] private AudioClip deathSound;
+
+
     public float currentHealth {  get; private set; }
     private Animator anim;
     private bool dead;    
@@ -33,6 +37,7 @@ public class Health : MonoBehaviour
         if (currentHealth > 0)
         {
             anim.SetTrigger("hurt");
+            SoundManager.instance.PlaySound(takeDamageSound);
             StartCoroutine(Invunerability());
         }
         else
@@ -45,7 +50,11 @@ public class Health : MonoBehaviour
                     GetComponent<PlayerController>().enabled = false;
                 //Enemy
                 if (GetComponentInParent<AntPatrol>() != null)
-                    GetComponentInParent<AntPatrol>().enabled = false;
+                {
+                    AntPatrol antPatrol = GetComponentInParent<AntPatrol>();
+                    Destroy(antPatrol.gameObject);
+
+                }
 
                 if (GetComponent<AntEnemy>() != null)
                 {
@@ -61,8 +70,10 @@ public class Health : MonoBehaviour
                 }
 
                 dead = true;
+                SoundManager.instance.PlaySound(deathSound);
+
             }
-           
+
         }
     }
     public void AddHealth(float _value)
@@ -73,14 +84,18 @@ public class Health : MonoBehaviour
 
     public void Respawn()
     {
-        
+        PlayerController playerController = GetComponent<PlayerController>();
+
         dead = false;
         AddHealth(startingHealth);
         anim.ResetTrigger("die");
         anim.Play("idle");
         StartCoroutine(Invunerability());
-        GetComponent<PlayerController>().enabled = true;
-        
+        playerController.enabled = true;
+        playerController.isPoweredUp = false;
+
+
+
     }
 
     private IEnumerator Invunerability()

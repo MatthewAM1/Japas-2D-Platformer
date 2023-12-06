@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7860906763897440715}
   - component: {fileID: 5400205480766614600}
   - component: {fileID: 7640367285084685716}
+  - component: {fileID: 1060657416291884017}
   m_Layer: 0
   m_Name: 'health '
   m_TagString: Ground
@@ -130,3 +131,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1060657416291884017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561791757705416715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6192a564210f4e46814bcb47c61dd5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthValue: 1
+  pickoupSound: {fileID: 8300000, guid: 00cf9f7c50f0f9640a30bb95a8403d68, type: 3}
