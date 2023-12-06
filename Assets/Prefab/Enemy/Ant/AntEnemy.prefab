@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6889811502627729948}
   - component: {fileID: 6865590110637507635}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ant Head (1)
   m_TagString: EnemyHead
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7633085096591754327}
   - component: {fileID: 94613666327472909}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ant Head
   m_TagString: EnemyHead
   m_Icon: {fileID: 0}
@@ -168,9 +168,9 @@ GameObject:
   - component: {fileID: 4127592581074522873}
   - component: {fileID: 8304559870449864529}
   - component: {fileID: 3737178106973705133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AntEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

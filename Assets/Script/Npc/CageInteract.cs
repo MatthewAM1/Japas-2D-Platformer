@@ -6,6 +6,8 @@ public class CageInteract : MonoBehaviour
 {
     [SerializeField] private bool playerDetected;
     [SerializeField] private GameObject indicator;
+    [SerializeField] private AudioClip cageSound;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,6 +32,8 @@ public class CageInteract : MonoBehaviour
     {
         if (playerDetected && Input.GetKeyDown(KeyCode.E))
         {
+            SoundManager.instance.PlaySound(cageSound);
+
             gameObject.SetActive(false);
         }
     }

@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class AntPatrol : MonoBehaviour
 {
-    public GameObject pointLeft;
-    public GameObject pointRight;
+    public GameObject pointUp;
+    public GameObject pointDown;
+
     private Rigidbody2D enemyRigidbody;
     private Transform currentPoint;
-    [SerializeField] private float speed;
     [SerializeField] private float damage;
+
+    [SerializeField] private float speed;
     [SerializeField] private float patrolRadius;
 
     // Start is called before the first frame update
     void Start()
     {
         enemyRigidbody = GetComponent<Rigidbody2D>();
-        currentPoint = pointRight.transform;
+        currentPoint = pointDown.transform;
     }
 
     // Update is called once per frame
@@ -28,39 +30,46 @@ public class AntPatrol : MonoBehaviour
     void EnemyPatrol()
     {
         Vector2 point = currentPoint.position - transform.position;
-        if (currentPoint == pointRight.transform)
+        if (currentPoint == pointDown.transform)
         {
-            enemyRigidbody.velocity = new Vector2(speed, 0);
+            enemyRigidbody.velocity = new Vector2(0, -speed);
         }
         else
         {
-            enemyRigidbody.velocity = new Vector2(-speed, 0);
+            enemyRigidbody.velocity = new Vector2(0, speed);
         }
 
-        if (Vector2.Distance(transform.position, currentPoint.position) < patrolRadius && currentPoint == pointRight.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) < patrolRadius && currentPoint == pointDown.transform)
         {
             FlipEnemy();
-            currentPoint = pointLeft.transform;
+            currentPoint = pointUp.transform;
         }
 
-        if (Vector2.Distance(transform.position, currentPoint.position) < patrolRadius && currentPoint == pointLeft.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) < patrolRadius && currentPoint == pointUp.transform)
         {
             FlipEnemy();
-            currentPoint = pointRight.transform;
+            currentPoint = pointDown.transform;
         }
     }
 
     private void FlipEnemy()
     {
         Vector2 currentScale = transform.localScale;
-        currentScale.x *= -1;
         transform.localScale = currentScale;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            collision.GetComponent<Health>().TakeDamage(damage);
+        }
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(pointLeft.transform.position, 0.5f);
-        Gizmos.DrawWireSphere(pointRight.transform.position, 0.5f);
-        Gizmos.DrawLine(pointLeft.transform.position, pointRight.transform.position);
+        Gizmos.DrawWireSphere(pointUp.transform.position, 0.5f);
+        Gizmos.DrawWireSphere(pointDown.transform.position, 0.5f);
+        Gizmos.DrawLine(pointUp.transform.position, pointDown.transform.position);
     }
 }
