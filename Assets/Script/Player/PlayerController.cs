@@ -8,27 +8,25 @@ public class PlayerController : MonoBehaviour
     private float horizontalAxis;
     private Vector2 playerDirection;
 
-    // Player movement variable
+    [Header ("Player Movement")]
     [SerializeField] private float playerSpeed = 3.0f;
     [SerializeField] private float playerJumpForce = 5.0f;
     [SerializeField] private AudioClip jumpSound;
 
-
+    [Header ("Player Position")]
     private bool isOnGround = false;
     private bool facingRight = true;
+    [SerializeField] public float trampolineForce;
 
-    // Bullet variable
+    [Header ("Player Powerup")]
     [SerializeField] private AudioClip powerUpSound;
     [SerializeField] private Transform bulletSpawnPoint;
     [SerializeField] public GameObject bulletRight;
     [SerializeField] public GameObject bulletLeft;
     [SerializeField] private AudioClip shootSound;
-
-    // Extra power variable
     [SerializeField] public bool isPoweredUp = false;
-    [SerializeField] public float trampolineForce;
 
-    // Key variable
+    [Header ("Player key")]
     public bool haveKey = false;
     [SerializeField] public GameObject sewerKey;
 
