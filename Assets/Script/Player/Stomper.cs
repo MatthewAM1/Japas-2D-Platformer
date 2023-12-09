@@ -34,7 +34,17 @@ public class Stomper : MonoBehaviour
             playerController.haveKey = true;
             playerController.sewerKey.SetActive(true);
         }
-
+        if (collider.gameObject.CompareTag("Ground"))
+        {
+            playerController.isOnGround = true;
+        }
     }
 
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Ground"))
+        {
+            playerController.isOnGround = false;
+        }
+    }
 }
