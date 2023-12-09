@@ -12,6 +12,7 @@ TagManager:
   - KeyGuardHead
   - Trampoline
   - EnemyGuard
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX

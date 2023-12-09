@@ -5,18 +5,31 @@ using UnityEngine;
 public class Boat : MonoBehaviour
 {
     [SerializeField] private Health health;
-    [SerializeField] private GameObject boatPost;
-    private Animator anim;
+    [SerializeField] private Transform boatPost;
+    [SerializeField] private Transform endPoint;
+    [SerializeField] private float moveSpeed = 5f;
+
+    private Vector3 targetPoint;
+    private bool isMoving = false;
 
     private void Start()
     {
-        // Assuming the Animator component is on the same GameObject as this script
-        anim = GetComponent<Animator>();
+        targetPoint = endPoint.position;
     }
 
     private void Update()
     {
-        RespawnBoat();
+        if (!health.dead)
+        {
+            if (isMoving)
+            {
+                MoveBoat();
+            }
+        }
+        else
+        {
+            RespawnBoat();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,7 +37,7 @@ public class Boat : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             collision.transform.parent = this.transform;
-            anim.SetBool("move", true);
+            isMoving = true;
         }
     }
 
@@ -33,18 +46,25 @@ public class Boat : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             collision.transform.parent = null;
-            anim.SetBool("move", false);
+            isMoving = true;
+        }
+    }
 
+    private void MoveBoat()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, targetPoint, moveSpeed * Time.deltaTime);
+
+        if (Vector3.Distance(transform.position, targetPoint) < 0.1f)
+        {
+            isMoving = false;
         }
     }
 
     private void RespawnBoat()
     {
-        if (health.dead)
-        {
-            transform.position = boatPost.transform.position;
+        transform.position = boatPost.position;
 
-            // Codingan stop kapal tulis disini
-        }
+        // Codingan stop kapal tulis disini
+
     }
 }
