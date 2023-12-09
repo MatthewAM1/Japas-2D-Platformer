@@ -85,7 +85,7 @@ public class Health : MonoBehaviour
     public void Respawn()
     {
         PlayerController playerController = GetComponent<PlayerController>();
-
+  
         dead = false;
         AddHealth(startingHealth);
         anim.ResetTrigger("die");
