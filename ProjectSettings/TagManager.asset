@@ -13,6 +13,7 @@ TagManager:
   - Trampoline
   - EnemyGuard
   - SpawnPoint
+  - Confiner
   layers:
   - Default
   - TransparentFX

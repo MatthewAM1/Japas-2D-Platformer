@@ -36,6 +36,7 @@ public class BulletRight : MonoBehaviour
         if (collider.gameObject.CompareTag("Enemy"))
         {
             collider.GetComponent<Health>().TakeDamage(1);
+            Destroy(gameObject);
         }
 
         if (collider.gameObject.CompareTag("EnemyGuard"))
@@ -43,14 +44,15 @@ public class BulletRight : MonoBehaviour
             collider.GetComponentInParent<Health>().TakeDamage(1);
             playerController.haveKey = true;
             playerController.sewerKey.SetActive(true);
+            Destroy(gameObject);
+        }
+        if (collider.gameObject.CompareTag("Confiner"))
+        {
 
         }
         else
         {
             Destroy(gameObject);
         }
-
-        
-
     }
 }
