@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: 97aa1e3018a8cdc498ef3d94eca07756
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jalan (baru)-01_0
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 2839
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a5932436777574c916cf082cb527a7
+      internalID: 1264001428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_1
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 2839
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c3fb61fbe66c843be50e86bcda64df
+      internalID: 2075795896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_2
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 2839
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0160f09a76bb13145a95e0101bc5ebcd
+      internalID: -1765863641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_3
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 2839
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7664d4b194b7ce0409cc18cab8af73eb
+      internalID: -126161511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_4
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 2839
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d633b7e311fcf54998569185fcb4986
+      internalID: 666882296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_5
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 2839
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dea3430abed7674e8cb8c733c09b5a7
+      internalID: 907829765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_6
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 2118
+        width: 539
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6543f526416f0d41a5ead3faaa51d30
+      internalID: -677271024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_7
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 2118
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37542df45b602cf4190a2a6818c72917
+      internalID: 2115613678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_8
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 2079
+        width: 539
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56a1f5aa9509ba45995c254c9b50194
+      internalID: -1612521412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_9
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 2097
+        width: 538
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839a7c6dfa2715a4e9710cb075576554
+      internalID: -241567802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_10
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 2097
+        width: 538
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc3c3ead2f871c45a7913852b3bf8d4
+      internalID: -204105293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_11
+      rect:
+        serializedVersion: 2
+        x: 4037
+        y: 2076
+        width: 538
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57b5d6911b33334dbe952188b1c1015
+      internalID: 1966371178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_12
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 2082
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ede69d6e63b044ab9599146565d425
+      internalID: -1056340327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_13
+      rect:
+        serializedVersion: 2
+        x: 5168
+        y: 2082
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2096552a4489242a9a712b1dd3d354
+      internalID: 1206738384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1555
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed8a2974259acb4c88c9671b0560774
+      internalID: 1736493639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_15
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1559
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00488ce218821a40b4146d06a41a96d
+      internalID: 1332168339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_16
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1510
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7951bb319672e9a4aa901043acf8802f
+      internalID: 1086840058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_17
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1516
+        width: 538
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f390b544267e09a4c831aa440d61289b
+      internalID: 2006359053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_18
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 1510
+        width: 538
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f3f8ccd7795a498bfc32cf8314900
+      internalID: 325936493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_19
+      rect:
+        serializedVersion: 2
+        x: 4037
+        y: 1510
+        width: 538
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976de9ef1c9e1184aac729c16587a759
+      internalID: -1370813968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_20
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 1510
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee5799311351e44b9813fdfae941fd7
+      internalID: 103304960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_21
+      rect:
+        serializedVersion: 2
+        x: 5168
+        y: 1513
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7355196986186438272bb07d0f33e2
+      internalID: -106720040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 990
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a47957d17d63d439994a6a62bd6583
+      internalID: 2040342674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_23
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 990
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c08a9eb35c7af94da7875f10af4587b
+      internalID: -967154434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_24
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 990
+        width: 539
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0cba452d229834ca00ad909d5def40
+      internalID: 1726484083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_25
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 947
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c6de17eda34294bac7c1c500ee41c0
+      internalID: -923682506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_26
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 947
+        width: 538
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace14b677b1ed2e4a9a4bb808616631f
+      internalID: -1185032825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_27
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 944
+        width: 538
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc74aef43bfb0a4db7fac82bb7283d5
+      internalID: 785180314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_28
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 360
+        width: 539
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9d8059d722a4843ac4e613fb7434fc
+      internalID: -1193995656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jalan (baru)-01_29
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 360
+        width: 536
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13910bdd6f794f43973cfb8b849dec1
+      internalID: -1117748358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jalan (baru)-01_0: 1264001428
+      Jalan (baru)-01_1: 2075795896
+      Jalan (baru)-01_10: -204105293
+      Jalan (baru)-01_11: 1966371178
+      Jalan (baru)-01_12: -1056340327
+      Jalan (baru)-01_13: 1206738384
+      Jalan (baru)-01_14: 1736493639
+      Jalan (baru)-01_15: 1332168339
+      Jalan (baru)-01_16: 1086840058
+      Jalan (baru)-01_17: 2006359053
+      Jalan (baru)-01_18: 325936493
+      Jalan (baru)-01_19: -1370813968
+      Jalan (baru)-01_2: -1765863641
+      Jalan (baru)-01_20: 103304960
+      Jalan (baru)-01_21: -106720040
+      Jalan (baru)-01_22: 2040342674
+      Jalan (baru)-01_23: -967154434
+      Jalan (baru)-01_24: 1726484083
+      Jalan (baru)-01_25: -923682506
+      Jalan (baru)-01_26: -1185032825
+      Jalan (baru)-01_27: 785180314
+      Jalan (baru)-01_28: -1193995656
+      Jalan (baru)-01_29: -1117748358
+      Jalan (baru)-01_3: -126161511
+      Jalan (baru)-01_4: 666882296
+      Jalan (baru)-01_5: 907829765
+      Jalan (baru)-01_6: -677271024
+      Jalan (baru)-01_7: 2115613678
+      Jalan (baru)-01_8: -1612521412
+      Jalan (baru)-01_9: -241567802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

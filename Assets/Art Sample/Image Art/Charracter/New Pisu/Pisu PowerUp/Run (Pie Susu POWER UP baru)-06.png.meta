@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 84f796ac733d56c4e8647f2527614e1b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 71
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c900c62bf250a904a90f2e721c88b0bf
+      internalID: -1805448552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 71
+        width: 136
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c597752ae02643e4a94cc6d9e267769a
+      internalID: -1338781170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 71
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0036e15bc6a8bf84e907c6406487b81d
+      internalID: 1751516732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 71
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bde1d98b3370b44a4a621b9a9d9f16
+      internalID: -2052456379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_4
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 71
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9797e3d42f5bf548be85fcc7764c40f
+      internalID: -936037767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_5
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 71
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6182334fd77de045a49383629b19247
+      internalID: -146425496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_6
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 71
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88717b8e934318489f7a7716236b266
+      internalID: -1188964414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_7
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 68
+        width: 136
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52890537dcd26cc45a71b09a3b1470ee
+      internalID: 1858081398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_8
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 71
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c620da4bca31b384aa875eb361726e24
+      internalID: 1903164132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_9
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 71
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c497f7a41e0ecff4ebebee6cac989a7f
+      internalID: 821468081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_10
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 68
+        width: 137
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9764acee7e5babe44801c03dfce6f215
+      internalID: 974486665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_11
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 70
+        width: 137
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd655149f431eb646bac79599e8cd86f
+      internalID: -892958527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_12
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 71
+        width: 137
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3f55c4f0c927f4583ae4121de94ab9
+      internalID: -225254992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_13
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 71
+        width: 137
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e18c0222add994084ac3d9f5cd80fe
+      internalID: -904941675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_14
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 70
+        width: 136
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b999af3da213b484b823b982b4cc9409
+      internalID: -249368839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_15
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 71
+        width: 137
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cdb0347c9cdfe43990bde2821a92bf
+      internalID: -2000984206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_16
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 68
+        width: 137
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839d9af00963ea74ba0c91254df7957d
+      internalID: 1351132019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run (Pie Susu POWER UP baru)-06_17
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 71
+        width: 137
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702fcbf76db16494eb89fb1bed58e980
+      internalID: 496150773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Run (Pie Susu POWER UP baru)-06_0: -1805448552
+      Run (Pie Susu POWER UP baru)-06_1: -1338781170
+      Run (Pie Susu POWER UP baru)-06_10: 974486665
+      Run (Pie Susu POWER UP baru)-06_11: -892958527
+      Run (Pie Susu POWER UP baru)-06_12: -225254992
+      Run (Pie Susu POWER UP baru)-06_13: -904941675
+      Run (Pie Susu POWER UP baru)-06_14: -249368839
+      Run (Pie Susu POWER UP baru)-06_15: -2000984206
+      Run (Pie Susu POWER UP baru)-06_16: 1351132019
+      Run (Pie Susu POWER UP baru)-06_17: 496150773
+      Run (Pie Susu POWER UP baru)-06_2: 1751516732
+      Run (Pie Susu POWER UP baru)-06_3: -2052456379
+      Run (Pie Susu POWER UP baru)-06_4: -936037767
+      Run (Pie Susu POWER UP baru)-06_5: -146425496
+      Run (Pie Susu POWER UP baru)-06_6: -1188964414
+      Run (Pie Susu POWER UP baru)-06_7: 1858081398
+      Run (Pie Susu POWER UP baru)-06_8: 1903164132
+      Run (Pie Susu POWER UP baru)-06_9: 821468081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

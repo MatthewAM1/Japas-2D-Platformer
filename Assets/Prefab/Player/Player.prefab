@@ -64,7 +64,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -40.54, y: 0.28, z: 0}
-  m_LocalScale: {x: 0.4204245, y: 0.4218539, z: 0.4204245}
+  m_LocalScale: {x: 0.8475654, y: 0.8475654, z: 0.8475654}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4821573979271180006}
@@ -112,7 +112,7 @@ SpriteRenderer:
   m_SortingLayerID: 1577277157
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1816945726, guid: 106c8a5cc19b09744936394a26a79239, type: 3}
+  m_Sprite: {fileID: -462376692, guid: a5d4165d4c3343148abaff55e4d7b1d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -200,16 +200,16 @@ MonoBehaviour:
   playerSpeed: 4
   playerJumpForce: 8
   jumpSound: {fileID: 8300000, guid: cc76c89bf5f280c418a9acfd4cf8baea, type: 3}
+  isOnGround: 0
+  trampolineForce: 2
   powerUpSound: {fileID: 8300000, guid: 66b62156903bc5f4b87efb3441b24896, type: 3}
   bulletSpawnPoint: {fileID: 4821573979271180006}
   bulletRight: {fileID: 7406828011719506735, guid: 70aa594d01ab35c40bd49de707d46737, type: 3}
   bulletLeft: {fileID: 6709103620008410923, guid: 55ec9ca2cf39f374aa098c6a91ba15f4, type: 3}
   shootSound: {fileID: 8300000, guid: 1c74e10ec039d8b4f9a091deaa652f07, type: 3}
   isPoweredUp: 0
-  trampolineForce: 2
   haveKey: 0
   sewerKey: {fileID: 0}
-  audioSource: {fileID: 0}
 --- !u!95 &5284661337329774458
 Animator:
   serializedVersion: 5
@@ -246,6 +246,7 @@ MonoBehaviour:
   startingHealth: 5
   takeDamageSound: {fileID: 8300000, guid: 9b09da075d04758499686dc13395e2f7, type: 3}
   deathSound: {fileID: 8300000, guid: f87ed2ea3f746a547a3f39488c5c1b88, type: 3}
+  dead: 0
   iFramesDuration: 2
   numberOfFlashes: 3
 --- !u!82 &162543045159642336
