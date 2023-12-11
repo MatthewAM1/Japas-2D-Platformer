@@ -71,6 +71,7 @@ public class PlayerController : MonoBehaviour
             SoundManager.instance.PlaySound(powerUpSound);
             Destroy(collision.gameObject);
             isPoweredUp = true;
+            anim.Play("idle_power", -1, 0f);
         }
         
     }
@@ -89,13 +90,27 @@ public class PlayerController : MonoBehaviour
             if (!audioSource.isPlaying && audioSource.enabled)
             {
                 audioSource.Play();
+                anim.SetBool("isWalking", true);
+
+                if (isPoweredUp)
+                {
+                    audioSource.Play();
+                    anim.SetBool("isWalking_power", true);
+                }
+
             }
-            anim.SetBool("isWalking", true);
+           
         }
         else
         {
             audioSource.Stop();
             anim.SetBool("isWalking", false);
+
+            if (isPoweredUp)
+            {
+                audioSource.Stop();
+                anim.SetBool("isWalking_power", false);
+            }
         }
         if (horizontalAxis > 0 && !facingRight)
         {
@@ -130,19 +145,34 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isJumping", false);
             anim.SetBool("isFalling", false);
+
+            if (isPoweredUp)
+            {
+                anim.SetBool("isJumping_power", false);
+                anim.SetBool("isFalling_power", false);
+            }
         }
 
         if (playerRB.velocity.y > 0) 
         {
             anim.SetBool("isJumping", true);
-          
 
+            if (isPoweredUp)
+            {
+                anim.SetBool("isJumping_power", true);
+            }
         }
 
         if (playerRB.velocity.y < 0) 
         {
             anim.SetBool("isJumping", false);
             anim.SetBool("isFalling", true);
+
+            if (isPoweredUp)
+            {
+                anim.SetBool("isJumping_power", false);
+                anim.SetBool("isFalling_power", true);
+            }
         }
     }
 
@@ -152,7 +182,7 @@ public class PlayerController : MonoBehaviour
         {
             if (isPoweredUp)
             {
-                anim.SetTrigger("attack");
+                anim.SetTrigger("attack_power");
                 SoundManager.instance.PlaySound(shootSound);
                 Instantiate(bulletRight, bulletSpawnPoint.position, bulletRight.transform.rotation);
             }
@@ -162,7 +192,7 @@ public class PlayerController : MonoBehaviour
         {
             if (isPoweredUp)
             {
-                anim.SetTrigger("attack");
+                anim.SetTrigger("attack_power");
                 SoundManager.instance.PlaySound(shootSound);
                 Instantiate(bulletLeft, bulletSpawnPoint.position, bulletLeft.transform.rotation);
             }

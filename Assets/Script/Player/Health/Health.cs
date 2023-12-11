@@ -36,7 +36,15 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            anim.SetTrigger("hurt");
+            if (GetComponent<PlayerController>() != null && GetComponent<PlayerController>().isPoweredUp)
+            {
+                anim.SetTrigger("hurt_power");
+            }
+            else
+            {
+                anim.SetTrigger("hurt");
+            }
+
             SoundManager.instance.PlaySound(takeDamageSound);
             StartCoroutine(Invunerability());
         }
@@ -44,10 +52,14 @@ public class Health : MonoBehaviour
         {
             if (!dead)
             {
-                anim.SetTrigger("die");
-                //Player
-                if(GetComponent<PlayerController>() != null) 
-                    GetComponent<PlayerController>().enabled = false;
+                if (GetComponent<PlayerController>() != null && GetComponent<PlayerController>().isPoweredUp)
+                {
+                    anim.SetTrigger("die_power");
+                }
+                else
+                {
+                    anim.SetTrigger("die");
+                }
                 //Enemy
                 if (GetComponentInParent<AntPatrol>() != null)
                 {
