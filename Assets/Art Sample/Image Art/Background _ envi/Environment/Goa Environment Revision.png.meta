@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,1057 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Goa Environment Revision_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e36c18ba785ea4b8e104fc8138269c
+      internalID: -352685800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b40844ca80ce594195f82df34a8004c
+      internalID: 1943909103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2cd7b2dd66ead42ba55b92812f4187
+      internalID: 2083513955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5004f63b25c5d494780914834ea5eecc
+      internalID: 490310996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66174dda9bb8a84db338c831c862017
+      internalID: -495829088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea3b95bb85a65b4b946e6149a7b0e02
+      internalID: -919762849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeeb75a00b0b274eae32dcea2436981
+      internalID: -1818796141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ce4e1c45f7292499c888dcdc6ed9c9
+      internalID: 859702740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a052dfb58ed700e4a8f0dffb54c5ea3f
+      internalID: 1207639437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_9
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 864
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3add53c77c3235d49a6edc459d07c96e
+      internalID: -203329844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631d83e4cecc7d14189945f8541e7b3a
+      internalID: 1667863146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8debc68e3d4ec46a44a1a2efeefe3d
+      internalID: -312683014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c913e49d0f1076408ee3147a7a05d5d
+      internalID: -69751633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97953d3e8f303264c936ff554c68c3f0
+      internalID: -18021083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3085639dc9b1ed49b701341c1080ab5
+      internalID: 882952642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a257c1ad312b4f64098b48f635a5469c
+      internalID: -1112614310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_16
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b423b67d9ff246c4885018b5fbabaf1f
+      internalID: 1403002497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956a544ce1aa87249a9f9d88e4f9f32e
+      internalID: -143669328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e235982d50b8d7d40805b9ddf899e4ba
+      internalID: -33121340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_19
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 648
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5c7a541feb28b4db26f5928288c424
+      internalID: 2119218082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348f09142b0c5634ca2446a5aa034108
+      internalID: -1439984269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa4f210a74c24b4ca4cb6843fc9b2d5
+      internalID: -1404792140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56c2405ebb59c549b4853c20e03d896
+      internalID: -2109064617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dea1ece679d60f4488bd16dff95fc6a
+      internalID: -852717552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702fbc14842709b45bb360c9b2779bb2
+      internalID: 147275633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29009175b5f7c3e4c86f13d291d5a798
+      internalID: -140942300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275cafa032c4e30428660ca1021d9bce
+      internalID: 1047785547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_27
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb039e449c5bcf408c981e372c2e827
+      internalID: -1252597865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f109b69ad0ceb4cb3943bba0146502
+      internalID: -607779688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_29
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 432
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fff13bc02ad5a4197ff6959fe8e1cb
+      internalID: -1388929026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3865801cdd4194a8e626295cc5b7ea
+      internalID: 1107392035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15727f8f5dec4e743b21b50a3b27f51a
+      internalID: 234794604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f119b0c9fd2a074bb239fa68c40ae70
+      internalID: 1204360830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e708c40d37504894abaab14fe8a29e9c
+      internalID: 473652257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd24db2fb3d0274aaf1016a8c867f05
+      internalID: 1551651960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_35
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf47eecd4bd5564b8e4f63114fab17e
+      internalID: 700952821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2535e16c47bf98b44a9591d9b66cdb97
+      internalID: 1317148817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_37
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171a962bc92d7f94a96fdd1d7195be27
+      internalID: -428637348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218ac16561fe7404ea4666b4c5fe7bae
+      internalID: -1058403674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_39
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 216
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fdbb7922172054184516bb00f46299
+      internalID: 1884829626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf838ed29583404daacb07ffc18a760
+      internalID: -278891938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406d7169eff1de04fb4ee3825b4953a1
+      internalID: 220717292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135ff69fa9c61a14fb5abd2fe983fc2e
+      internalID: 2122035370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a31b8b2d17e214fbfe6d77583fc94a
+      internalID: -245375196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a8581397c11a24eb3871d8ecb7b35f
+      internalID: -124694728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_45
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1c949c9552ddd48848dcb4dcb8c1ec
+      internalID: 853409087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_46
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cff4148d233daf43b0bbcf44cb9ced7
+      internalID: 679397430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_47
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25279d490e0f405419117a22268945de
+      internalID: 1293226581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_48
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f25acdcb2f8074ab398e2a02b86b2d
+      internalID: -404653088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goa Environment Revision_49
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4d5024fc0f5e94383a08fd96661d4d
+      internalID: 1880349923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1169,57 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Goa Environment Revision_0: -352685800
+      Goa Environment Revision_1: 1943909103
+      Goa Environment Revision_10: 1667863146
+      Goa Environment Revision_11: -312683014
+      Goa Environment Revision_12: -69751633
+      Goa Environment Revision_13: -18021083
+      Goa Environment Revision_14: 882952642
+      Goa Environment Revision_15: -1112614310
+      Goa Environment Revision_16: 1403002497
+      Goa Environment Revision_17: -143669328
+      Goa Environment Revision_18: -33121340
+      Goa Environment Revision_19: 2119218082
+      Goa Environment Revision_2: 2083513955
+      Goa Environment Revision_20: -1439984269
+      Goa Environment Revision_21: -1404792140
+      Goa Environment Revision_22: -2109064617
+      Goa Environment Revision_23: -852717552
+      Goa Environment Revision_24: 147275633
+      Goa Environment Revision_25: -140942300
+      Goa Environment Revision_26: 1047785547
+      Goa Environment Revision_27: -1252597865
+      Goa Environment Revision_28: -607779688
+      Goa Environment Revision_29: -1388929026
+      Goa Environment Revision_3: 490310996
+      Goa Environment Revision_30: 1107392035
+      Goa Environment Revision_31: 234794604
+      Goa Environment Revision_32: 1204360830
+      Goa Environment Revision_33: 473652257
+      Goa Environment Revision_34: 1551651960
+      Goa Environment Revision_35: 700952821
+      Goa Environment Revision_36: 1317148817
+      Goa Environment Revision_37: -428637348
+      Goa Environment Revision_38: -1058403674
+      Goa Environment Revision_39: 1884829626
+      Goa Environment Revision_4: -495829088
+      Goa Environment Revision_40: -278891938
+      Goa Environment Revision_41: 220717292
+      Goa Environment Revision_42: 2122035370
+      Goa Environment Revision_43: -245375196
+      Goa Environment Revision_44: -124694728
+      Goa Environment Revision_45: 853409087
+      Goa Environment Revision_46: 679397430
+      Goa Environment Revision_47: 1293226581
+      Goa Environment Revision_48: -404653088
+      Goa Environment Revision_49: 1880349923
+      Goa Environment Revision_5: -919762849
+      Goa Environment Revision_6: -1818796141
+      Goa Environment Revision_7: 859702740
+      Goa Environment Revision_8: 1207639437
+      Goa Environment Revision_9: -203329844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
