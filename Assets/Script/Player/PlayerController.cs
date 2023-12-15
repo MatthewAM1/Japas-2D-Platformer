@@ -78,6 +78,8 @@ public class PlayerController : MonoBehaviour
 
     void PlayerMovement()
     {
+        if(!CutsceneEvent.isCutsceneOn)
+        { 
 
         horizontalAxis = Input.GetAxis("Horizontal");
         playerDirection = new Vector2(horizontalAxis, 0);
@@ -120,6 +122,7 @@ public class PlayerController : MonoBehaviour
         if (horizontalAxis < 0 && facingRight)
         {
             FlipPlayer();
+        }
         }
     }
 
