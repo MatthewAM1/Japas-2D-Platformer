@@ -53,11 +53,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //// Check if player is on ground
-        //if (collision.gameObject.CompareTag("Ground"))
-        //{
-        //    isOnGround = true;
-        //}
         if (collision.gameObject.CompareTag("Trampoline"))
         {
             playerRB.AddForce(Vector2.up * trampolineForce, ForceMode2D.Impulse);
