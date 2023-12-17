@@ -5133,7 +5133,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1948164478}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: LoadLevel1
+        m_MethodName: LoadCutScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

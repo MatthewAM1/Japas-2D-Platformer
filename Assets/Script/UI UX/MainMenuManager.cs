@@ -26,9 +26,9 @@ public class MainMenuManager : MonoBehaviour
         levelMenuScreen.gameObject.SetActive(true);
     }
 
-    public void LoadLevel1()
+    public void LoadCutScene()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("CutScene");
     }
 
     public void LoadLevel2()
