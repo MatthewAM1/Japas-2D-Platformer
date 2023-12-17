@@ -16,7 +16,7 @@ GameObject:
   m_Layer: 7
   m_Name: Toxin
   m_TagString: Enemy
-  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.2, y: 0, z: 0}
-  m_LocalScale: {x: 0.1028133, y: 0.1028133, z: 0.1028133}
+  m_LocalScale: {x: 0.7212546, y: 0.7212546, z: 0.7212546}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -71,7 +71,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.93, y: 3.93}
+    oldSize: {x: 2.67, y: 2.19}
     newSize: {x: 19.2, y: 10.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -148,7 +148,7 @@ SpriteRenderer:
   m_SortingLayerID: -291468369
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 05a567474a061924f86da76610b8e3b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 17fd239bb8d7bbf48bcfd6c1827f6b92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
