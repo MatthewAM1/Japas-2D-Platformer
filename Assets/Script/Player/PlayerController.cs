@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     Animator anim;
     private Rigidbody2D playerRB;
     private AudioSource audioSource;
+    public bool canMove = true;
 
     void Start()
     {
@@ -73,7 +74,7 @@ public class PlayerController : MonoBehaviour
 
     void PlayerMovement()
     {
-        if(!CutsceneEvent.isCutsceneOn)
+        if(!CutsceneEvent.isCutsceneOn && canMove)
         { 
 
         horizontalAxis = Input.GetAxis("Horizontal");
