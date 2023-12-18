@@ -16384,7 +16384,7 @@ MonoBehaviour:
   - Pisu
   dialogueWords:
   - Ingat! seringlah berinterkasi dengan apapun selama perjalanmu
-  - Dan Iggat pula kau bisa mengalahkan musuh dengan teknik lempar
+  - Dan Ingat pula kau bisa mengalahkan musuh dengan teknik lempar jiwa
   - Akan selalu ku ingat pak
   - selamat mengembara pisu
   - Sampai jumpa
@@ -82997,7 +82997,7 @@ Transform:
   m_GameObject: {fileID: 1212968527}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.6408844, y: 0.0132808685, z: 0}
+  m_LocalPosition: {x: 7.6509857, y: 0.0132808685, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -118550,19 +118550,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4480547814519123823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5389174422963043361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3500dbe3486eefd41860623dd8a87ced, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueScript: {fileID: 0}
 --- !u!114 &4522236663767584607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118928,7 +118915,6 @@ GameObject:
   - component: {fileID: 1950012483588723041}
   - component: {fileID: 7190799127500086264}
   - component: {fileID: 7843818509147230937}
-  - component: {fileID: 4480547814519123823}
   m_Layer: 0
   m_Name: NPC Warga
   m_TagString: Untagged
