@@ -4843,7 +4843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
+  m_IgnoreReversedGraphics: 0
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
@@ -4931,6 +4931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b147948e6f32cc42a104a7484d89b11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 5059fea93f5aae6459f3c01e097f0001, type: 3}
   mainMenuScreen: {fileID: 1228930133}
   levelMenuScreen: {fileID: 1275078602}
   controlScreen: {fileID: 457979463}
@@ -5526,7 +5527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.25, y: 0.2}
   m_AnchorMax: {x: 0.25, y: 0.2}
-  m_AnchoredPosition: {x: -5.6999817, y: -2.7999802}
+  m_AnchoredPosition: {x: -5.6999817, y: -2.799984}
   m_SizeDelta: {x: 100, y: 104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2042420635407377086
@@ -5554,7 +5555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.75, y: 0.2}
   m_AnchorMax: {x: 0.75, y: 0.2}
-  m_AnchoredPosition: {x: 5.799988, y: -2.7999802}
+  m_AnchoredPosition: {x: 5.799988, y: -2.799984}
   m_SizeDelta: {x: 100, y: 104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3264873782896507040

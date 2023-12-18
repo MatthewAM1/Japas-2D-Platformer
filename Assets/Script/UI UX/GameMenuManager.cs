@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameMenuManager : MonoBehaviour
 {
+    [SerializeField] private AudioClip buttonSound;
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject victoryMenu;
 
@@ -12,18 +13,24 @@ public class GameMenuManager : MonoBehaviour
     {
         pauseMenu.gameObject.SetActive(true);
         Time.timeScale = 0;
+        SoundManager.instance.PlaySound(buttonSound);
+
     }
 
     public void ResumeGame()
     {
         pauseMenu.gameObject.SetActive(false);
         Time.timeScale = 1;
+        SoundManager.instance.PlaySound(buttonSound);
+
     }
 
     public void ReturnToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
+        SoundManager.instance.PlaySound(buttonSound);
+
     }
 
     public void VictoryGame()
