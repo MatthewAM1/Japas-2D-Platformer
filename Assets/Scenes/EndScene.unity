@@ -1485,6 +1485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e236abf32f7eda4f8a18b01b97e00fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSound: {fileID: 8300000, guid: 5059fea93f5aae6459f3c01e097f0001, type: 3}
 --- !u!4 &291156834
 Transform:
   m_ObjectHideFlags: 0
@@ -3611,6 +3612,7 @@ MonoBehaviour:
   isPoweredUp: 1
   haveKey: 0
   sewerKey: {fileID: 0}
+  canMove: 1
 --- !u!50 &8957072195086466523
 Rigidbody2D:
   serializedVersion: 4
