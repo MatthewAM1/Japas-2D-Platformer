@@ -17334,7 +17334,7 @@ MonoBehaviour:
   - Pisu
   dialogueWords:
   - Ingat! seringlah berinterkasi dengan apapun selama perjalanmu
-  - Dan Iggat pula kau bisa mengalahkan musuh dengan teknik lempar
+  - Dan Ingat pula kau bisa mengalahkan musuh dengan teknik lempar jiwa
   - Akan selalu ku ingat pak
   - selamat mengembara pisu
   - Sampai jumpa
@@ -84573,7 +84573,7 @@ Transform:
   m_GameObject: {fileID: 1212968527}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.6388702, y: 0.0132808685, z: 0}
+  m_LocalPosition: {x: 7.6509857, y: 0.0132808685, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -112100,70 +112100,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 245751674}
     m_Modifications:
-    - target: {fileID: 1950012484298357683, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1222851271, guid: ef73647d9de6bec49a1bea31098d5740, type: 3}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8475654
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8475654
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8475654
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -30.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5389174423823128307, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_Name
-      value: NPC Warga
-      objectReference: {fileID: 0}
-    - target: {fileID: 7190799127672320298, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1999378045757176376, guid: c913c00fd8669ae4286c19f42144b405, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1.79
@@ -112275,9 +112211,78 @@ PrefabInstance:
       propertyPath: dialogueScript
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1950012484298357683, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1222851271, guid: ef73647d9de6bec49a1bea31098d5740, type: 3}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8475654
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8475654
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8475654
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -30.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806627458075082261, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480547815908214205, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389174423823128307, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_Name
+      value: NPC Warga
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190799127672320298, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2578335494522320805, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
     - {fileID: 486805827040702381, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
+    - {fileID: 4480547815908214205, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4813670122216096205, guid: 6b46caa0371435b4da48be4176946c4b, type: 3}
     m_AddedGameObjects:
