@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 5
-  takeDamageSound: {fileID: 8300000, guid: 9b09da075d04758499686dc13395e2f7, type: 3}
+  takeDamageSound: {fileID: 8300000, guid: 13a26bb3c62aefe429ae39faced11a0f, type: 3}
   deathSound: {fileID: 8300000, guid: f87ed2ea3f746a547a3f39488c5c1b88, type: 3}
   dead: 0
   iFramesDuration: 2

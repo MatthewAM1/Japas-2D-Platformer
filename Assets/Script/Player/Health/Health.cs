@@ -21,9 +21,9 @@ public class Health : MonoBehaviour
     private SpriteRenderer spriteRend;
 
 
+
     private void Awake()
     {
-        
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
@@ -55,11 +55,19 @@ public class Health : MonoBehaviour
                 if (GetComponent<PlayerController>() != null && GetComponent<PlayerController>().isPoweredUp)
                 {
                     anim.SetTrigger("die_power");
+
                 }
                 else
                 {
                     anim.SetTrigger("die");
+
                 }
+                PlayerController playerController = GetComponent<PlayerController>();
+                if (playerController != null)
+                {
+                    playerController.enabled = false;
+                }
+
                 //Enemy
                 if (GetComponentInParent<AntPatrol>() != null)
                 {
@@ -71,7 +79,9 @@ public class Health : MonoBehaviour
                 if (GetComponent<AntEnemy>() != null)
                 {
                     AntEnemy antEnemy = GetComponent<AntEnemy>();
-                    Destroy(antEnemy.gameObject);
+                    antEnemy.Death();
+                    
+
 
                 }
                 if (GetComponent<FlyEnemy>() != null)
@@ -122,4 +132,6 @@ public class Health : MonoBehaviour
         }
         Physics2D.IgnoreLayerCollision(6, 7, false);
     }
+
+   
 }

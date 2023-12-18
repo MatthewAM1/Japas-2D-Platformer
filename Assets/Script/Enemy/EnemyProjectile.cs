@@ -18,29 +18,7 @@ public class EnemyProjectile : EnemyDamage
         //DestroyProjectileTimer();
     }
 
-    void DestroyProjectileTimer() // Hasil error karena peluru prefab di destroy duluan.
-    {
-        projectileTimer -= 1 * Time.deltaTime;
+  
 
-        if (projectileTimer < 0)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    private void OnTriggerEnter(Collider collider) // Objek tetap tidak mau ke destroy meskipun kena player
-    {
-        if (collider.gameObject.CompareTag("Player"))
-        {
-            Destroy(gameObject);
-        }
-        if (collider.gameObject.CompareTag("Confiner"))
-        {
-
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+   
 }

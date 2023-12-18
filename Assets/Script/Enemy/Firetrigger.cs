@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Firetrigger : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         RangedEnemy range = GetComponentInParent<RangedEnemy>(); // Ganti menjadi GetComponentInChildren<RangedEnemy>() jika perlu
 
-        if (range != null && other.CompareTag("Player"))
+        if (range != null && collision.CompareTag("Player"))
         {
             range.Shoot();
         }

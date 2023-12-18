@@ -17,6 +17,7 @@ public class CutSceneManager : MonoBehaviour
     [SerializeField] private GameObject scene9;
 
     [Header("Other Variable")]
+    [SerializeField] private AudioClip buttonSound;
     [SerializeField] private int cutSceneCounter = 1;
     [SerializeField] private GameObject backButton;
 
@@ -91,15 +92,21 @@ public class CutSceneManager : MonoBehaviour
     public void NextCutScene()
     {
         cutSceneCounter += 1;
+        SoundManager.instance.PlaySound(buttonSound);
+
     }
 
     public void BackCutScene()
     {
         cutSceneCounter -= 1;
+        SoundManager.instance.PlaySound(buttonSound);
+
     }
 
     public void LoadLevel1()
     {
         SceneManager.LoadScene("Level1");
+        SoundManager.instance.PlaySound(buttonSound);
+
     }
 }
